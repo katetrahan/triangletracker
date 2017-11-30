@@ -14,8 +14,7 @@ $(document).ready(function() {
     } else if (sideA != sideB && sideA != sideC && sideB != sideC) {
       $("#typeOfTriangle").text("This is a Scalene: No sides are equal.");
     } else {
-
+      console.log("else");
     }
-
   });
 });
